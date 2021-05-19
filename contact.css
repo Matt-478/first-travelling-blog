@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  p {
+    font-size: 16px; 
+    /* font-family: 'Oswald', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  .Oswald {
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .Playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .Poppins {
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */
+  nav {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    display: block;
+    padding: 14px 18px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .logo-img {
+    /* display: inline-block; */
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    width: 42px;
+    height: 42px;
+    /* padding-bottom: 22px; */
+    /* float: left; */
+  }
+  
+  ul {  
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+  
+  li {
+    display: inline-block; /* makes it a row */
+    font-size: 24px;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+  }
+
+.f-title {
+  font-size: 26px;
+}
+
+.f-pop {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bloga header bilde */
+.img3 {
+  background-image: url("https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+}
+
+
+
+.img-resize3 {
+  width: 100%;
+  height: 450px;
+  background-position: center top; 
+  background-size: cover;
+  text-align: center;
+}
+
+.img3 h1 {
+  color: white;
+  padding-top: 140px;
+}
+
+.fs-large {
+  font-size: 28px;
+}
+
+.bg-dark-overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+/* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */
+footer {
+  background-color: rgb(170, 170, 170);
+  height: 200px;
+  padding-top: 50px;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.block {
+  display: block;
+}
+
+.icon-size {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icon-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-flex-right {
+  justify-content: flex-end;
+  margin-right: 120px;
+}
+
+.insta-icon:hover {
+  background-color: rgb(152, 166, 201);
+  border-radius: 14px;
+}
+
+.beh-icon:hover {
+  background-color: rgb(152, 166, 201);
+  border-radius: 14px;
+}
+
+.faceb-icon:hover {
+  background-color: rgb(152, 166, 201);
+  border-radius: 7px;
+}
+
+.telegr-icon:hover {
+  background-color: rgb(152, 166, 201);
+  border-radius: 14px;
+}
+
+.yout-icon:hover {
+  background-color: rgb(152, 166, 201);
+  border-radius: 14px;
+}
+
+.icon-flex-left {
+  justify-content: flex-start;
+  margin-left: 150px;
+}
+
+.icon-flex-left p {
+  font-size: 22px;
+  color: rgb(37, 37, 37);
+}
+
+.icon-flex-left p:hover {
+  font-size: 22px;
+  color: rgb(119, 119, 119);
+  cursor: pointer;
+}
+
+.d-block {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 40%;
+}
+
+/* COPYRIGHT */
+.c-icon {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 55px;
+  left: 552px;
+}
+
+/* CONTACT ME FORM *//* CONTACT ME FORM *//* CONTACT ME FORM *//* CONTACT ME FORM *//* CONTACT ME FORM *//* CONTACT ME FORM *//* CONTACT ME FORM */
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(46, 44, 209);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(35, 33, 150);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THESE MAKE THE FOOTER STAY AT THE BOTTOM */
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  /* width: 100%; */
+  height: 2.5rem;            /* Footer height */
+}
+
+/* DISABLES HORIZONTAL SCROLL */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+
+  .img-resize3 {
+    width: 100%;
+    height: 300px;
+    background-position: bottom center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .img3 h1 {
+    color: white;
+    padding-top: 22%;
+    margin: 0 auto;
+  }
+
+  .img3 {
+    background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80");
+  }
+}
+
